@@ -19,6 +19,9 @@
             color: #FF0000;
             background-color: #0033CC;
         }
+        p{
+            color:#fff;
+        }
     </style>
     
 </head>
@@ -90,7 +93,7 @@
         </section>
         <section id="footer">
             <div>
-                <p>Tạp Hóa VipProBaby &copy; 2015 tranvanphu.com</p>
+                <p>Mua Bán Hàng Hóa Online</p>
             </div>
         </section>
     </div><!--container-->

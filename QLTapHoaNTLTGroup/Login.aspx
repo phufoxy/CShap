@@ -16,7 +16,7 @@
     }
         #TextBox1{
            background-color: #ffffff;
-    opacity: .4;
+    opacity: 1;
             width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
@@ -27,7 +27,7 @@
         }
         #TextBox2{
             background-color: #ffffff;
-    opacity: .4;
+    opacity: 1;
             width: 100%;
 	    padding: 12px 20px;
 	    margin: 8px 0;
@@ -38,7 +38,7 @@
         }
         #Button1{
              background-color: #ffffff;
-    opacity: .4;
+    opacity: 1;
             width: 100%;
 	background-color: #4CAF50;
 	color: white;
@@ -82,7 +82,7 @@
         }
         #Image1{
              background-color: #ffffff;
-    opacity: .4;
+    opacity: 1;
             width:40%;
             border-radius:50%;
         }

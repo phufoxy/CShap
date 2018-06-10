@@ -125,7 +125,7 @@ menu ul li a{
     }
          #TextBox1{
             background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
             
 	        padding: 12px 20px;
@@ -137,7 +137,7 @@ menu ul li a{
         }
          #TextBox2{
             background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
             
 	        padding: 12px 20px;
@@ -149,7 +149,7 @@ menu ul li a{
         }
          #TextBox3{
             background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
             
 	        padding: 12px 20px;
@@ -161,7 +161,7 @@ menu ul li a{
         }
          #TextBox4{
             background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
            
 	        padding: 12px 20px;
@@ -173,7 +173,7 @@ menu ul li a{
         }
          #TextBox5{
             background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
             
 	        padding: 12px 20px;
@@ -185,7 +185,7 @@ menu ul li a{
         }
          #TextBox6{
             background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
             
 	        padding: 12px 20px;
@@ -197,7 +197,7 @@ menu ul li a{
         }
          #TextBox7{
             background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
             
 	        padding: 12px 20px;
@@ -209,7 +209,7 @@ menu ul li a{
         }
          #TextBox8,#tongtien{
             background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
            
 	        padding: 12px 20px;
@@ -221,7 +221,7 @@ menu ul li a{
         }
          #DropDownList1{
                background-color: #ffffff;
-            opacity: .4;
+            opacity: 1;
             width: 100%;
            
 	        padding: 12px 20px;
@@ -233,7 +233,7 @@ menu ul li a{
          }
           #Button1,#Button2{
              background-color: #ffffff;
-    opacity: .4;
+    opacity: 1;
             width: 100%;
 	background-color: #4CAF50;
 	color: white;
@@ -367,7 +367,7 @@ menu ul li a{
 		</div><!--menu-->
         <section>
             <div id="main" align="center">
-                <marquee DIRECTION=RIGHT><asp:Image ID="Image1" runat="server" ImageUrl="~/anh/animation_gif_powerpoint.vn_dragon__2_.gif" /></marquee> 
+               
                     </div>
             <div id="giv">
                 <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" OnPageIndexChanging="GridView1_PageIndexChanging" OnSorting="GridView1_Sorting" PageSize="5" ></asp:GridView>
