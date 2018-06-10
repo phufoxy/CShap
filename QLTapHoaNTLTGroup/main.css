@@ -1,0 +1,84 @@
+﻿*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+ 
+body{
+	 position: relative;
+         height: 100%;
+        background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/slider-2.jpg");
+         background-size: cover;
+         overflow: auto;
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration:none;
+    color:#2ecc71;
+    transition: all 0.5s;
+    
+    -webkit-transition: all 0.5s;
+}
+a:hover, a:visited{
+    color:#ecf0f1;
+}
+#container{
+    padding-left:150px;
+    padding-right:150px;
+    position:relative;
+    left:0;
+    width:100%
+}
+#menu ul{
+    list-style-type:none;
+    background:#1f5688;
+    text-align:center;
+    border-radius:10px;
+}
+#menu ul li{
+    color:#ecf0f1;
+    display:inline-table;
+    width:120px;
+    height:40px;
+    line-height:40px;
+    position:relative;
+}
+menu ul li a{
+	color: #f1f1f1;
+	text-decoration: none;
+	display: block;
+}
+#menu ul li a:hover{
+	background-color: #ecf0f1;
+	color: #3498db;
+}
+#menu ul li > .sub-menu{
+	display: none;
+	position: absolute;
+	padding-left: 0px;
+	transform:  color 0.3s, background 0.3s;
+
+}
+#menu ul li:hover .sub-menu{
+	display: block;
+}
+#menu ul li > .sub-menu1{
+	display: none;
+	position: absolute;
+	padding-left: 0px;
+	transform:  color 0.3s, background 0.3s;
+
+}
+#menu ul li:hover .sub-menu1{
+	display: block;
+}
+#header, .call-to-action{
+	text-align: center;
+
+}
+#footer{
+	font-size: 85%;
+	border-top:1px solid #e6e6e6;
+	color: #838383;
+	padding: 1em 3em;
+}

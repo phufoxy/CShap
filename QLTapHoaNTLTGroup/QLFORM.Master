@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QLFORM.master.cs" Inherits="QLTapHoaNTLTGroup.QLFORM" %>
+
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="main.css">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <style type="text/css">
+       
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style3 {
+            width: 777px;
+            height: 160px;
+        }
+        .auto-style4 {
+            color: #FF0000;
+            background-color: #0033CC;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">	
+		<div id="menu">
+			<ul>
+				<li><a href="TrangChu.aspx">Trang Chủ</a></li>
+				<li><a href="KhachHangADD1.aspx">Khách Hàng</a>
+					<ul class="sub-menu">
+						<li><a href="KhachHangADD1.aspx">Thêm Vào</a></li>
+						<li><a href="KhachHangUpdate.aspx">Cập Nhập</a></li>
+						<li><a href="KhachHangDelete.aspx">Xóa</a></li>
+						<li><a href="KhachHangSeach.aspx">Tìm Kiếm</a></li>
+					</ul>
+				</li>
+				<li><a href="NhanVienADD.aspx">Nhân Viên</a>
+					<ul class="sub-menu1">
+						<li><a href="NhanVienADD.aspx">Thêm Vào</a></li>
+						<li><a href="NhanVienUpdate.aspx">Cập Nhập</a></li>
+						<li><a href="NhanVienDelete.aspx">Xóa</a></li>
+						<li><a href="NhanVienSearch.aspx">Tìm Kiếm</a></li>
+					</ul>
+				</li>
+				<li><a href="HangHoaADD.aspx">Hàng Hóa</a>
+                    <ul class="sub-menu1">
+						<li><a href="HangHoaADD.aspx">Thêm Vào</a></li>
+						<li><a href="HangHoaUpdate.aspx">Cập Nhập</a></li>
+						<li><a href="HangHoaDelete.aspx">Xóa</a></li>
+						<li><a href="HangHoaSearch.aspx">Tìm Kiếm</a></li>
+					</ul>
+				</li>
+				<li><a href="HoaDonADD1.aspx">Hóa Đơn</a>
+                     <ul class="sub-menu1">
+						<li><a href="HoaDonADD1.aspx">Thêm Vào</a></li>
+						<li><a href="HoaDonUpdate.aspx">Cập Nhập</a></li>
+						<li><a href="HoaDonDelete.aspx">Xóa</a></li>
+						<li><a href="HoaDonSearch.aspx">Tìm Kiếm</a></li>
+					</ul>
+				</li>
+				<li><a href="CTHDADD1.aspx">CTHD</a>
+                     <ul class="sub-menu1">
+						<li><a href="CTHDADD1.aspx">Thêm Vào</a></li>
+						<li><a href="CTHDUpdate.aspx">Cập Nhập</a></li>
+						<li><a href="CTHDDelete.aspx">Xóa</a></li>
+						<li><a href="CTHDSearch.aspx">Tìm Kiếm</a></li>
+                        <li><a href="InHoaDon.aspx">In Hóa Đơn</a></li>
+                        <li><a href="ThongKeCTHD1.aspx">Thống Kê </a></li>
+					</ul>
+				</li>
+                <li><a href="DangXuat.aspx">Đăng Xuất</a></li>
+			</ul>
+		</div><!--menu-->
+        <section id="header">
+            <table class="auto-style1">
+                <tr>
+                    <td>
+                        <asp:Image ID="Image1" runat="server" Height="146px" ImageUrl="~/anh/dich-vu-van-chuyen-hang-hoa-la-gi.jpg" />
+                    </td>
+                    <td>
+                        <img class="auto-style3" src="anh/purple-lonely-chair-website-header-design.jpg" /></td>
+                </tr>
+            </table>
+        </section>
+        <section id="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <section id="footer">
+            <div>
+                <p>Tạp Hóa VipProBaby &copy; 2015 tranvanphu.com</p>
+            </div>
+        </section>
+    </div><!--container-->
+    </form>
+</body>
+</html>
+
